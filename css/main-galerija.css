@@ -1,0 +1,270 @@
+﻿body {
+background-image: url("../img/sprinkles.png");
+font-family:verdana, Tahoma; Arial, san-serif;
+overflow:auto;
+}
+h2,h4 {
+text-align:center;
+padding:2%;
+color:#13652a;
+}
+p {
+padding:2%;
+}
+
+img{
+text-align:center;
+max-width:100%;
+height:auto;
+width:auto;
+border: 2px solid #13652a;
+box-shadow:0 0 10px 0px rgba(12,3,25,0.8);
+}
+#omot {
+margin:0 auto;
+max-width:1400px;
+width:98%;
+border:1px solid #533f17;
+border-radius:10px;
+box-shadow:0 0 10px 0px rgba(12,3,25,0.8);
+overflow:hidden;
+}
+header {
+width:auto;
+min-height:100px;
+padding:0px;
+text-align:center;
+background-color:#f5dfb4;
+overflow:hidden;
+margin-bottom:2px;
+border-bottom:1px solid #cdb585;
+}
+header img {
+width:30%;
+float:left;
+margin:1% 5% 1% 10%;
+}
+
+
+nav ul {
+list-style:none;
+margin:7%;
+padding-left:10%;
+text-align:center;
+}
+
+nav ul li {
+float:left;
+border:1px solid #533f17;
+width:15%;
+}
+
+nav ul li a {
+background-color:#f6ebd6;
+display:block;
+padding:5%;
+font-weight:bold;
+font-size:18px;
+color:#13652a;
+text-decoration:none;
+text-align:center;
+
+}
+
+nav ul li a:hover,nav ul li.active a {
+background-color:#cdb585;
+color:#2f964b;
+}
+.clearfix {
+clear:both;
+}
+
+.levi-tekst {
+width:55%;
+float:left;
+}
+
+.desna-slika {
+width:40%;
+float:right;
+margin:0px;
+text-align:center;
+}
+
+.cleaarfix {
+clear:both;
+}
+
+.odeljak{
+width:auto;
+min-height:300px;
+background-color:#cdb585;
+color:#533f17;
+padding:5% 10%;
+}
+.cleaarfix {
+clear:both;
+}
+.akcije {
+width:auto;
+min-height:300px;
+background-image: url("../img/brushed.png");
+color:#533f17;
+padding:5% 10%;
+text-align:center;
+overflow:hidden;
+}
+.prva-akcija {
+width:31%;
+float:left;
+
+}
+
+.druga-akcija {
+width:31%;
+float:left;
+margin-left:3.5%;
+}
+
+.treca-akcija {
+width:31%;
+float:left;
+margin-left:3.5%;
+}
+
+footer {
+width:auto;
+min-height:50px;
+background-image: url("../img/otis_redding.png");
+color:#ffffff;
+padding:1%;
+text-align:center;
+overflow:hidden;
+}
+
+.foot {
+width:31%;
+float:left;
+margin:1%;
+}
+
+ul {
+list-style-type:none;
+margin:0;
+padding:0;
+}
+
+ul li {
+display:inline;
+}
+
+ul li img {
+height::15px;
+width:15%;
+border:none;
+}
+a{
+text-decoration:none;
+color:#13652a;
+}
+
+/*---------------media----------------*/
+
+@media screen and (max-width: 960px) {
+	nav {
+		width: 50%;
+		float:left;
+		margin-top:7%
+		}
+	nav ul {
+		list-style:none;
+		margin: 2% auto;
+		padding-left: 0;
+		text-align:center;
+	}
+	nav ul li {
+		text-align: center;
+		margin-left: 0 auto;
+		width: 24%;
+		
+	}
+	
+	nav ul li a {
+		padding: 5px 0;
+		font-size:16px;
+	}
+@media screen and (max-width: 768px) {
+	header img{
+		width: 50%;
+		margin:1% 25% -6%;
+	}
+	nav {
+		width: 100%;
+		}
+	
+	nav ul {
+		list-style:none;
+		margin: 0 auto;
+		padding-left: 0;
+	}
+	nav ul li {
+		text-align: center;
+		margin-left: 0 auto;
+		width: 100%;
+	}
+	
+	nav ul li a {
+		padding: 8px 0;
+		font-size:16px;
+	}
+	.odeljak {
+		width:80%;	
+		float:left;
+		margin: 0;
+		text-align: center;
+	} 
+	
+	.levi-tekst {
+		width:100%;
+	}
+	
+	.desna-slika {
+		width:100%;	
+	}
+	
+	.akcije {
+		width:80%;	
+	}
+	
+	.prva-akcija {
+		width:100%;	
+	}
+	
+	.druga-akcija {
+		width:100%;		
+	}
+	
+	.treca-akcija {
+		width:100%;	
+	}
+	
+	footer{
+		width:100%;	
+	}
+	
+	.foot {
+		width:100%;	
+	}
+}
+
+@media screen and (max-width: 478px) {
+	body {
+		font-size:13px;
+	}
+
+}
+
+
+
+
+
